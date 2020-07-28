@@ -1,8 +1,8 @@
-package org.jetbrains.plugins.template.listeners
+package com.github.shedray.xmindtogauge.listeners
 
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import org.jetbrains.plugins.template.services.MyProjectService
+import com.github.shedray.xmindtogauge.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
